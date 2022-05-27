@@ -1,11 +1,12 @@
 import os
 from pymongo import MongoClient
+from dotenv import dotenv_values
 
 COLLECTION_NAME = 'xoro'
-
+MONGO_VALUES = dotenv_values("./env")
 class MongoRepository(object):
     def __init__(self):
-        mongo_url = os.environ.get('MONGO_URL')
+        mongo_url = os.environ.get(MONGO_URL)
         self.db = MongoClient(mongo_url).xoro
     
     def find_all(self,selector):

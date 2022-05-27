@@ -1,0 +1,26 @@
+{
+  "name": "server_website_backend",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geatfine/Server_WebSite_Backend.git"
+  },
+  "author": "Xorovats",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geatfine/Server_WebSite_Backend/issues"
+  },
+  "homepage": "https://github.com/Geatfine/Server_WebSite_Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-list-endpoints": "^6.0.0",
+    "mysql": "^2.18.1",
+    "officegen": "^0.6.5"
+  }
+}
